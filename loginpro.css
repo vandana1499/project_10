@@ -1,0 +1,108 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
+    box-sizing:border-box;
+    
+}
+body
+{
+    background-image: url("main-image2.png");
+    background-size: cover;
+}
+.login-box
+{
+    width:400px;
+    margin:100px auto;
+    background-color:rgba(255,255,255,0.1);
+}
+h2
+{
+    width:100%;
+    padding-top: 10px;
+    font-size: 30px;
+    color:#fff;
+    text-align: center;
+    text-shadow: 3px 3px 3px #000;
+}
+.main-image
+{
+    width:60px;
+    height:70px;
+    position:relative;
+    left:160px;
+    
+
+}
+.image
+{
+    width:40px;
+    height:40px;
+    padding:8px;
+    position:relative;
+    top:18px;
+    
+}
+.inp
+{
+    width:70%;
+    
+    padding:10px;
+    border-bottom:2px solid #00bfff;
+    
+    
+}
+.sub-button
+{
+    width:70%;
+    padding:8px;
+    position:relative;
+    left:43px;
+    top:12px;
+    border-radius:5px;
+    border:none;
+    font-size: 20px;
+    background:linear-gradient(#00bfff,skyblue);
+    cursor: pointer;
+    color:#fff;
+    text-shadow: 3px 3px 3px #000;
+    border-bottom: 2px solid #000;
+}
+.sub-button:hover
+{
+    background: linear-gradient(white,darkblue);
+    
+}
+.ref
+{
+    text-decoration:none;
+    color:#fff;
+    text-align:center;
+    text-shadow:1px 1px 1px #000;
+    display: block;
+    padding:10px;
+    width:100%;
+    border-radius:5px;
+    border-bottom: 2px solid #000;
+    font-size: 20px;
+    background: linear-gradient(skyblue,white);
+    position:relative;
+    top:50px;
+    
+    
+}
+.reg:hover{
+    
+background: linear-gradient(#00bfff,navy);
+}
+@media(max-width:720px)
+{
+    .login-box
+    {
+        width:60%;
+        
+        
+    }
+    
+}
